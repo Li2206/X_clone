@@ -1,15 +1,12 @@
 import TweetContent from './tweet-content'
 import TweetAvatar from './tweet-avatar'
-function Tweet({content1}){
-   
+function Tweet({content}){
  return(
-    <>
-   
     <div className="tweet">  
-        <TweetAvatar imageAvatar={content1.image}></TweetAvatar>
-        <TweetContent></TweetContent>
+        <TweetAvatar imageAvatar={content}></TweetAvatar>
+        <TweetContent content={content}></TweetContent>
     </div>
-    </>
+    
  )
 }
 export default Tweet

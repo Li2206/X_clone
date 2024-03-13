@@ -1,5 +1,5 @@
 function TweetAvatar({imageAvatar}){
-    console.log(imageAvatar)
- return <img src={imageAvatar} alt="" />
+    
+ return <img src={imageAvatar.image} alt="" />
 }
 export default TweetAvatar

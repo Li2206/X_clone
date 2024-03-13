@@ -2,15 +2,18 @@ import Picture1 from "../assets/Vector1.svg"
 import Picture2 from "../assets/Vector-1.svg"
 import Picture3 from "../assets/Vector-2.svg"
 import Picture4 from "../assets/Group.svg"
-function TweetAction(){
+function TweetAction({action}){
     return(
         <div className="tweet-action">
             <img src={Picture1} alt="" />
-            <span>57</span>
+            <span>{action.comment}</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <img src={Picture2} alt="" />
-            <span>144</span>
+            <span>{action.retweet}</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <img src={Picture3} alt="" />
-            <span>114</span>
+            <span>{action.like}</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <img src={Picture4} alt="" />
         </div>
     )

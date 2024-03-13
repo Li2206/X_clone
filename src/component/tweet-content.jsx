@@ -1,10 +1,11 @@
 import TweetActions from './tweet-actions'
 import TweetBody from './tweet-body'
-function TweetContent(){
+function TweetContent({content}){
+    
 return(
 <div className='tweet-content'>
-    <TweetBody></TweetBody>
-    <TweetActions></TweetActions>
+    <TweetBody content={content}></TweetBody>
+    <TweetActions actions={content}></TweetActions>
 </div>
 )
 }

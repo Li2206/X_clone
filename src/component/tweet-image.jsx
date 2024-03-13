@@ -1,5 +1,5 @@
-import ImgUrl from'../assets/Img.png'
-function TweetImage(){
- return <img className="tweet-image" src={ImgUrl} alt="" />
+
+function TweetImage({img}){
+ return <img className="tweet-image" src={img.tweetimg}alt="" />
 }
 export default TweetImage

@@ -1,4 +1,7 @@
-function TweetTitleDetails(){
- return <span className="tweet-details">2h</span>
+function TweetTitleDetails({details}){
+ return(
+ <div className="tweet-title-details"><span>{details.user} . </span>
+ <span >{details.time}</span>
+ </div>)
 }
 export default TweetTitleDetails
