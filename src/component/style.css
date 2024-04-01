@@ -1,0 +1,122 @@
+.Sidebar{
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 20px;
+    
+}
+.main-content{
+    display: flex;
+    gap: 2rem;
+    padding:10px
+}
+.text{
+    padding-top: 3.5rem;
+}
+#txt{
+    padding-top: 7px;
+}
+.icone, .text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bouton{
+    text-transform: capitalize;
+    padding: .7rem 1.5rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #1D9BF0;
+    color: white;
+    font-size: 1rem;
+    width: 100px;
+    margin-top: 20 0 0 20;
+}
+.sidbouton{
+    margin: 0,auto;
+}
+.profile-content{
+    display: flex;
+}
+.profile{
+    width: 50px;
+}
+ 
+.trends{
+    padding: 20px 10px ;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.timeline{
+    width: 50%;
+}
+.user-name{
+    color: grey;
+    font-size: 14px;
+     top: 0;
+}
+.profile-name{
+    font-size: 14px;
+}
+.input{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: grey;
+    background-color: rgb(57, 54, 54);
+}
+.follow{
+    display: flex;
+    justify-content: space-between;
+}
+.follow button{
+    width: 60px;
+    height: 30px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 25px;
+}
+.show_more{
+    color: rgb(53, 178, 240);
+    text-decoration: none;
+}
+.trend_content, .Who_to_follow{
+    background-color: rgb(57, 54, 54);
+    border-radius: 20px;
+    padding: 10px;
+}
+.trend-align, .trend_content span{
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.lisence{
+    font-size: 13px;
+    color: grey;
+}
+.trends h1{
+    font-weight: 500;
+    font-size: 15px;
+}
+.user p{
+    font-size: 13px;
+}
+.user span{
+    font-size: 11px;
+    color: grey;
+}
+.img{
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+}
+.follows{
+    display: flex;
+    padding-bottom: 10px;
+}
