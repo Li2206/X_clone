@@ -19,6 +19,7 @@ body{
     font-family: 'Inter', sans-serif;
     border-left: 1px solid #2F3336;
     border-right: 1px solid #2F3336;
+    width: 50%;
 }
 
 .header {
@@ -181,7 +182,7 @@ body{
     font-size: 1rem;
 }
 
-.tweet-actions svg {
+.tweet-actions svg{
     width: 1rem;
     height: auto;
     color: #2F3336;
@@ -192,4 +193,28 @@ body{
     align-items: center;
     justify-content: center;
     gap: 20px;
+}
+.tweet-action .like:hover{
+    color: red;
+    cursor: pointer;
+    width: 25px;
+    
+}
+.tweet-action .comment:hover{
+    color: rgb(31, 182, 247);
+    cursor: pointer;
+    width: 25px;
+    filter: invert(48%) sepia(88%) saturate(523%) hue-rotate(166deg) brightness(92%) contrast(106%);
+    
+}
+.tweet-action .retweet:hover{
+    color: rgb(0, 255, 162);
+    cursor: pointer;
+    width: 25px;
+    filter: invert(72%) sepia(13%) saturate(4920%) hue-rotate(96deg) brightness(99%) contrast(83%);
+}
+.App-container{
+    display: grid;
+    grid-template-columns: 20%,50%,30%;
+    position: relative;
 }

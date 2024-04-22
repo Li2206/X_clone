@@ -5,9 +5,11 @@ import './index.css'
 import './component/style.css'
 function App(){
    return (<>
-   <Side></Side>
-   <TimeLine></TimeLine>
-   <Trends></Trends>
+   <div className="App-container">
+      <Side></Side>
+      <TimeLine></TimeLine>
+      <Trends></Trends>
+   </div>
    </>)
    
 

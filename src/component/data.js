@@ -14,7 +14,7 @@ const dataArray = [
        industry and combat the global climate crisis`,
        comment: "57k",
        retweet:"144k",
-       like:"184M",
+       like:"184",
        
      },
      {
@@ -38,7 +38,7 @@ const dataArray = [
         text:"hello literaly everyone",
         comment: "118K",
         retweet:"785K",
-        like:"3.3M",
+        like:"3.3",
         
       },
       {
@@ -49,7 +49,7 @@ const dataArray = [
         text:"hello literaly everyone",
         comment: "118K",
         retweet:"785K",
-        like:"3.3M",
+        like:"3.3",
        
       },
       {
@@ -60,7 +60,7 @@ const dataArray = [
         text:"hello literaly everyone",
         comment: "118K",
         retweet:"785K",
-        like:"3.3M",
+        like:"3.3",
         tweetimg:TweetImg
       }
      

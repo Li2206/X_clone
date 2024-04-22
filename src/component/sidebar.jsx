@@ -1,7 +1,6 @@
 import Img1 from '../assets/Profile-Photo.png'
 import Img2 from '../assets/Bookmarks.png'
 import Img3 from '../assets/Explore.png'
-import Img4 from '../assets/Group.png'
 import Img5 from '../assets/Home-Fill.png'
 import Img6 from '../assets/Lists.png'
 import Img7 from '../assets/Messages.png'
@@ -9,7 +8,7 @@ import Img8 from '../assets/More.png'
 import Img9 from '../assets/Notifications.png'
 import Img10 from '../assets/Twitter.png'
 import Img11 from '../assets/Profile.png'
-import Img12 from '../assets/Profile-Photo.png'
+import Img12 from '../assets/Vector.png'
 function Side(){
    return (
    <div className="Sidebar">
@@ -42,7 +41,7 @@ function Side(){
             <div className="profile-content">
                 <img src={Img1}alt="" className="profile" />
                 <div className='name'>
-                    <p className="profile-name">Bradeley Ortiz<img src="" alt="" /> </p>
+                    <p className="profile-name">Bradeley Ortiz<img src={Img12} alt="" /> </p>
                     <p className="user-name" font-size="8px">@Bradeley_ ...</p>
                 </div> 
             </div>

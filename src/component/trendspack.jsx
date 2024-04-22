@@ -2,13 +2,18 @@ import ProfileImg1 from "../assets/Profile-Photo-1.png"
 import ProfileImg2 from "../assets/Profile-Photo-2.png"
 import ProfileImg3 from "../assets/Profile-Photo6.png"
 import Img1 from "../assets/Vector.svg"
+import Img13 from "../assets/Search-Icon.png"
+import Img4 from "../assets/setting.png"
 function Trends(){
     return(
         <>
         <div className="trends">
-            <input type="search" placeholder="Search Twitter" className="input"/>
+            <div className="input">
+               <img src={Img13} alt="" /> 
+              <input type="text" placeholder="Search Twitter"  className="search"/>
+            </div>  
             <div className="trend_content">
-                <aside><h1>Trends for you</h1><img src="" alt="" /></aside>
+                <aside><h1>Trends for you</h1><img src={Img4} alt="" /></aside>
                 <div>
                     <div className="trend-align">
                         <span>Trending in Turkey</span>
